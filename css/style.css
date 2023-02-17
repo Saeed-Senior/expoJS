@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  background-color: #333;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: center/cover no-repeat url(../img/first.jpg);
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 1px 1px 0 black;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  overflow: auto;
+}
+
+.card {
+  width: 300px;
+  background-color: rgb(85, 70, 51);
+  border-radius: 10px;
+  box-shadow: 0 0 15px cadetblue;
+  cursor: pointer;
+}
+.card__image img {
+  border-radius: 10px 10px 0 0;
+  width: 300px;
+}
+.card__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
+  height: 50px;
+}/*# sourceMappingURL=style.css.map */
